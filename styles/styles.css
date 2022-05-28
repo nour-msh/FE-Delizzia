@@ -5,6 +5,28 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.logo-nav {
+  padding-left: 60px;
+  height: 90%;
+  padding-top: 20px;
+  width:300px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
 .image-resto {
   padding-left: 20px;
   padding-right: 20px;
@@ -22,11 +44,6 @@
   font-size: 24px;
 }
 
-.logo-nav {
-  padding-left: 60px;
-  height: 78%;
-  padding-top: 10px;
-}
 
 .logo-up {
   padding-left: 80px;
@@ -42,22 +59,8 @@
   margin-top: 50px;
 }
 
-.topNav {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-  background-color: rgb(27, 27, 27);
-}
 
-.links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-right: 60px;
-  font-size: 25px;
-  color: white;
-}
+
 
 .links > li {
   margin-right: 20px;
