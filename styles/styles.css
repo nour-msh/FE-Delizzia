@@ -7,7 +7,6 @@
 
 .logo-nav {
   padding-left: 60px;
-  height: 90%;
   padding-top: 20px;
   width:300px;
 }
@@ -25,6 +24,25 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
+}
+
+.bio {
+  font-size: 25px;
+  margin-top:350px;
+  margin-left: 60px;
+  margin-bottom:20px;
+  display:flex;
+
+}
+.container {
+  background: url("../assets/blake-wisz-pPA-_q5v1a8-unsplash.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 .image-resto {
@@ -67,22 +85,7 @@
   cursor: pointer;
 }
 
-.container {
-  background: url("../assets/blake-wisz-pPA-_q5v1a8-unsplash.jpg");
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
 
-.delizziaParagraph {
-  font-size: 32px;
-  padding-bottom: 50px;
-  margin-left: 50px;
-}
 
 .SecoundSection {
   background: url("../assets/img2.png");
