@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.image-resto {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 150px;
+  width: 230px;
+}
+
+.resto-name {
+  text-align: center;
+}
+
+.resto-name {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo-nav {
+  padding-left: 60px;
+  height: 78%;
+  padding-top: 10px;
+}
+
+.logo-up {
+  padding-left: 80px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.imgTwo {
+  padding-left: 130px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgb(27, 27, 27);
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+  font-size: 25px;
+  color: white;
+}
+
+.links > li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.container {
+  background: url("../assets/blake-wisz-pPA-_q5v1a8-unsplash.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.delizziaParagraph {
+  font-size: 32px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+
+.SecoundSection {
+  background: url("../assets/img2.png");
+  margin: 0px;
+  padding: 0px;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 38px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.theRestaurants {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.thirdSection {
+  background: url("../assets/img3.png");
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.footer {
+  background: url("../assets/footer.png");
+  padding: 33px 30vw;
+  font-weight: bold;
+  height: 20vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.follow {
+  text-align: center;
+  font-size: 24px;
+  color: red;
+}
+
+.footer2 {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 10px;
+}
+
+.bkgImage {
+  background: url("../assets/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.button-name {
+  text-align: center;
+}
+
+.button-name > input[type="text"] {
+  height: 35%;
+  margin: 8px 0;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  font-size: 16px;
+  width: 85%;
+  border: 1.5px solid #eeeff0;
+}
+
+.button-Lastname {
+  text-align: center;
+}
+
+.button-Lastname > input[type="text"] {
+  height: 35%;
+  margin: 8px 0;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  font-size: 16px;
+  width: 85%;
+  border: 1.5px solid #eeeff0;
+}
+
+.button-email {
+  text-align: center;
+}
+
+.button-email > input[type="text"] {
+  height: 35%;
+  margin: 8px 0;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  font-size: 16px;
+  width: 85%;
+  border: 1.5px solid #eeeff0;
+}
+
+.button-email > input[type="text"]:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 0 0 5px #719ece;
+  caret-color: blue;
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+}
+
+.background-input {
+  box-shadow: 0 2px 10px rgb(36, 36, 36), 0 8px 16px rgb(36, 35, 35);
+  background-color: #000000;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  align-items: center;
+}
+
+.button-signUp {
+  background-color: #d31515fd;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  line-height: 48px;
+  width: 85%;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.signUp {
+  position: relative;
+  flex: 50%;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.bkgImagetwo {
+  background: url("../assets/saahil-khatkhate-kfDsMDyX1K0-unsplash.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.background-inputtwo {
+  box-shadow: 0 2px 10px rgb(0, 0, 0), 0 8px 16px rgb(0, 0, 0);
+  background-color: #000000;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding-left: 60px;
+  font-size: 30px;
+  color: white;
+}
+
+.restaurantOne {
+  background-color: #000000;
+  height: 300px;
+  width: 1150px;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+  align-items: center;
+}
+
+.dominos {
+  height: 200px;
+  width: 250px;
+  top: -35px;
+  position: absolute;
+}
+
+.image-container {
+  position: relative;
+}
+
+.restaurant-list {
+  background: #d9d9d9;
+  margin: 50px 200px;
+  display: flex;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.restaurant-container {
+  padding-left: 225px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.restaurant-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.restaurant-desc {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.rating {
+  position: relative;
+  top: 165px;
+}
+
+.red-rect {
+  background-color: red;
+  padding-bottom: 18px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.rating-text {
+  position: absolute;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 8px;
+}
