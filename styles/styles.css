@@ -45,15 +45,25 @@
   position: relative;
 }
 
-.image-resto {
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 150px;
-  width: 230px;
+h1 {
+  font-size: 38px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: lighter;
 }
 
-.resto-name {
-  text-align: center;
+.available-restos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.resto {
+  padding-left: 20px;
+  height: 200px;
+  width: 300px;
 }
 
 .resto-name {
@@ -87,30 +97,9 @@
 
 
 
-.SecoundSection {
-  background: url("../assets/img2.png");
-  margin: 0px;
-  padding: 0px;
-  height: 50vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
 
-h1 {
-  font-size: 38px;
-  margin-bottom: 50px;
-  padding-top: 20px;
-  text-align: center;
-}
 
-.theRestaurants {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-bottom: 50px;
-}
+
 
 .thirdSection {
   background: url("../assets/img3.png");
