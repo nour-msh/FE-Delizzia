@@ -140,6 +140,66 @@ h1 {
 
 /* End of Login Page */
 
+.bkgImage {
+  background: url("../assets/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+.signUp {
+  display:flex;
+  position: relative;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.background-input {
+  box-shadow: 0 2px 10px rgb(36, 36, 36), 0 8px 16px rgb(36, 35, 35);
+  background-color: #000000;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+
+}
+
+.signupInput {
+  text-align: center;
+}
+
+.signupInput > input[type="text"] {
+  height: 35%;
+  margin: 8px 0;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  font-size: 16px;
+  width: 85%;
+  border: 1.5px solid #eeeff0;
+  
+}
+
+.button-signUp {
+  background-color: #d31515fd;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  line-height: 48px;
+  width: 85%;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* End of Sign Up page */
 
 .imgTwo {
   padding-left: 130px;
@@ -191,82 +251,9 @@ h1 {
 
 
 
-.bkgImage {
-  background: url("../assets/pinar-kucuk-Ae7jQFDTPk4-unsplash.jpg");
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-
-.button-name {
-  text-align: center;
-}
-
-.button-name > input[type="text"] {
-  height: 35%;
-  margin: 8px 0;
-  border-radius: 5px;
-  padding: 20px 20px 20px 20px;
-  font-size: 16px;
-  width: 85%;
-  border: 1.5px solid #eeeff0;
-}
-
-.button-Lastname {
-  text-align: center;
-}
-
-.button-Lastname > input[type="text"] {
-  height: 35%;
-  margin: 8px 0;
-  border-radius: 5px;
-  padding: 20px 20px 20px 20px;
-  font-size: 16px;
-  width: 85%;
-  border: 1.5px solid #eeeff0;
-}
 
 
 
-
-
-
-
-.background-input {
-  box-shadow: 0 2px 10px rgb(36, 36, 36), 0 8px 16px rgb(36, 35, 35);
-  background-color: #000000;
-  width: 400px;
-  border-radius: 10px;
-  padding: 10px 10px 20px 10px;
-  align-items: center;
-}
-
-.button-signUp {
-  background-color: #d31515fd;
-  color: white;
-  border-radius: 6px;
-  border: none;
-  font-size: 20px;
-  line-height: 48px;
-  width: 85%;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.signUp {
-  position: relative;
-  flex: 50%;
-  padding-top: 100px;
-  justify-content: center;
-}
 
 
 
