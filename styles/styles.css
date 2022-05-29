@@ -209,7 +209,7 @@ h1 {
 }
 
 /* End of Sign Up page */
-.resto-menu{
+.dominos-Background{
   background: url("../assets/menu1.jpg");
   margin: 0px;
   padding: 0px;
@@ -221,7 +221,7 @@ h1 {
   color: white;
 
 }
-.dominos-menu{
+.pizza-menu{
   width:100%;
   height:60%;
   background-color: rgba(0, 0, 0, 0.712);
@@ -240,5 +240,18 @@ h3{
   color:white;
   font-weight: lighter;
   margin-left:5%;
+  width:90%
 }
  
+.pizzahut-Background{
+  background: url("../assets/menu2.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: white;
+
+}
