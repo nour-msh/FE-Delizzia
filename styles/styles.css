@@ -255,3 +255,38 @@ h3{
   color: white;
 
 }
+
+
+/* End of menu pages */
+
+.editing{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:white;
+  font-weight: lighter;
+  margin-top:5%;
+  width:90%;
+  margin-left: 70px;
+
+}
+.edit{
+  width:500px;
+  height:200px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.get-users{
+
+  margin-bottom: 30px;
+}
+.get-restaurants{
+
+}
+.add-restaurant{
+ 
+  margin-bottom: 30px;
+}
+.monitor-reviews{
+ 
+}
