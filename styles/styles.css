@@ -282,8 +282,58 @@ h2{
   text-align: center;
   padding: 15%;
   font-size: 40px;
-  background-color:#d31515d5; 
+  background-color:#d31515fd; 
   display:flex;
   position: relative;
   justify-content: center;
+}
+
+/* End of admin page */
+
+.profileBackground{
+  background: url("../assets/profile-background.jpg");
+  margin: 0px;
+  padding: 0px;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.editProfBtn{
+  background-color: #cc1a1afd;
+  width:120px;
+  height:40px;
+  border:none;
+  border-radius: 6px;
+  margin-left:85%;
+  margin-top: 80px;
+  color:white;
+  font-size: 15px;
+
+}
+
+.form-container {
+  width: 500px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+label{
+  margin-left: 7px;
+}
+.Enter{
+  font-size: 18px;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 95%;
+  padding: 20px;
+  margin-left: 5px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
