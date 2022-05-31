@@ -33,3 +33,10 @@ saveBtn.addEventListener("click", function(){
           console.log(response);
           }
       )})
+
+
+
+// var coloredButton = document.getElementById("activities").addEventListener("click", turnRed);
+// function turnRed(){
+//     document.getElementById("activities").style.color="#d31515fd"
+// }

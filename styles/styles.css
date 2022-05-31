@@ -304,7 +304,7 @@ h2{
   justify-content: center;
 }
 .form-popup {
-  z-index: 2;
+  z-index: 2
 }
 .editBtn{
   background-color:#bbb3b3 ;
@@ -348,29 +348,7 @@ h2{
   border-radius: 10px;
 
 }
-.activityContainer{
-  height:400px;
-  width:400px;
-  background-color: white;
-  border: 2px solid rgb(214, 213, 213);
-  border-radius: 10px;
-  padding: 35px;
-}
-#activity> h4{
-  font-size: 20px;
-  margin-left: 40px;
-}
-#activity >button{
 
-  font-size: 20px;
-  background-color: transparent;
-  border: none;
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-  padding-top: 15px;
-  margin-left: 40px;
-}
 /* End of admin page */
 
 .profileBackground{
@@ -381,6 +359,8 @@ h2{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 label{
   margin-left: 12px;
@@ -396,4 +376,31 @@ label{
   padding:10px;
   margin-left:85%;
   margin-top: 5%;
+}
+.activityContainer{
+  height:400px;
+  width:400px;
+  background-color: white;
+  border: 2px solid rgb(214, 213, 213);
+  border-radius: 7px;
+  padding: 35px;
+  margin-top: 130px;
+  z-index: 1;
+}
+#activity> h4{
+  font-size: 20px;
+  margin-bottom:10px;
+  margin-top: 10px;
+  color:#d31515fd;
+
+}
+#activity >button{
+
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding-top: 15px;
 }
