@@ -109,20 +109,20 @@ h1 {
   width: 400px;
   border-radius: 10px;
   padding: 10px 10px 20px 10px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
-.loginButton > input[type="text"] {
+.inputData > input[type="text"] {
   height: 35%;
   margin: 8px 0;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px 20px 20px 20px;
   font-size: 16px;
   width: 85%;
   margin-left: 30px;
 }
 
-.loginButton > input[type="text"]:focus {
+.inputData > input[type="text"]:focus {
   outline: none;
   border: 1px solid #d31515fd;
   box-shadow: 0 0 5px #d31515fd;
@@ -132,6 +132,21 @@ h1 {
   padding-left: 80px;
   padding-bottom: 30px;
   padding-top: 30px;
+}
+#loginButton {
+  background-color: #d31515fd;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  line-height: 48px;
+  width: 85%;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -169,17 +184,17 @@ h1 {
 }
 
 .signupInput > input[type="text"] {
-  height: 35%;
+  height: 25%;
   margin: 8px 0;
   border-radius: 5px;
-  padding: 20px 20px 20px 20px;
+  padding: 15px 15px 15px 15px;
   font-size: 16px;
   width: 85%;
   border: 1.5px solid #eeeff0;
   
 }
 
-.button-signUp {
+#signupButton {
   background-color: #d31515fd;
   color: white;
   border-radius: 6px;
@@ -230,7 +245,7 @@ h3{
   width:90%
 }
  
-.pizzahut-Background{
+.pizza-Background{
   background: url("../assets/menu2.jpg");
   margin: 0px;
   padding: 0px;
@@ -249,7 +264,7 @@ h3{
   background: url("../assets/menu3.jpg");
   margin: 0px;
   padding: 0px;
-  height: 100vh;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -275,6 +290,7 @@ h2{
 }
 .edit{
   margin-top: 10%;
+  margin-bottom:10%;
   width:500px;
   height:180px;
   border-radius: 20px;
@@ -284,8 +300,54 @@ h2{
   font-size: 40px;
   background-color:#d31515fd; 
   display:flex;
-  position: relative;
+  /* position: relative; */
   justify-content: center;
+}
+.form-popup {
+  z-index: 2;
+}
+.editBtn{
+  background-color:#bbb3b3 ;
+  width:120px;
+  height:40px;
+  border:none;
+  border-radius: 6px;
+  color:white;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding:10px;
+  align-items: center;
+  margin-left: 16%;
+
+}
+.form-container {
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left:33%
+}
+.form-container>h1{
+  color:black
+}
+.Enter{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px #f1f1f1;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 95%;
+  padding: 20px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+
 }
 
 /* End of admin page */
@@ -297,43 +359,20 @@ h2{
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   position: relative;
 }
+label{
+  margin-left: 12px;
+}
 .editProfBtn{
-  background-color: #cc1a1afd;
+  background-color:#d31515fd ;
   width:120px;
   height:40px;
   border:none;
   border-radius: 6px;
-  margin-left:85%;
-  margin-top: 80px;
   color:white;
   font-size: 15px;
-
-}
-
-.form-container {
-  width: 500px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 10px;
-}
-
-label{
-  margin-left: 7px;
-}
-.Enter{
-  font-size: 18px;
-}
-.form-container input[type=text], .form-container input[type=password] {
-  width: 95%;
-  padding: 20px;
-  margin-left: 5px;
-  border: none;
-  background: #f1f1f1;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
+  padding:10px;
+  margin-left:85%;
+  margin-top: 5%;
 }
