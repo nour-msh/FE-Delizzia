@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prfile</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <!--bckground image -->
+    <div class="profileBackground">
+        <nav class="topNav">
+            <img class="logo-nav" src="./assets/Delizzia.png"/>
+            <div>
+                <a href="file:///C:/Users/user/Desktop/frontEnd_Delizzia/index.html"><button>Home</button></a>
+                <a href="file:///C:/Users/user/Desktop/frontEnd_Delizzia/logIn.html"><button>Log In</button></a>
+                <a href="file:///C:/Users/user/Desktop/frontEnd_Delizzia/signUp.html"><button>Sign Up</button></a>
+            </div>
+        </nav>
+        <div>
+            <image id="profileImage" src="http://lorempixel.com/100/100" />
+            <input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" >
+        </div>
+        <div><button class="editProfBtn" id="profButton" onclick="openForm()">Edit Profile</button></div>
+        <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <h1>Edit Profile</h1>
+          
+              <label for="firstname"><b>First Name</b></label>
+              <input type="text" class="Enter" placeholder="Enter First Name" required>
+          
+              <label for="lastname"><b>Last Name</b></label>
+              <input type="text" class="Enter" placeholder="Enter Last Name" required>
+
+              <label for="email"><b>Email</b></label>
+              <input type="text" class="Enter" placeholder="Enter Email" required>
+          
+
+              <label for="password"><b>Password</b></label>
+              <input type="password" class="Enter" placeholder="Enter Password" required>
+          
+
+              <label for="number"><b>Number</b></label>
+              <input type="text" class="Enter" placeholder="Enter Number" required>
+          
+              <button class="editBtn" id="saveBtn">Save Profile</button>
+              <button type="button" class="editBtn" id="closeBtn" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+
+          <div><button>Check All Restos</button></div>
+    </div>
+    <script src="./javascript/edit_profile.js" type="text/javascript"></script>
+</body>
