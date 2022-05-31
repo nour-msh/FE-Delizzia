@@ -19,7 +19,6 @@ btn.addEventListener("click", function(){
                     window.location.href="file:///C:/Users/user/Desktop/frontEnd_Delizzia/adminPage.html"
                 }
                 else{
-                console.log("hi");
                 window.location.href="file:///C:/Users/user/Desktop/frontEnd_Delizzia/profile.html";
             }
             }})

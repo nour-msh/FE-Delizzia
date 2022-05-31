@@ -354,9 +354,10 @@ h2{
 
 .profileBackground{
   background: url("../assets/profile-background.jpg");
+  /* background-color: #d31515c0; */
   margin: 0px;
   padding: 0px;
-  height: 40vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -377,7 +378,7 @@ label{
   font-size: 15px;
   padding:10px;
   margin-left:85%;
-  margin-top: 5%;
+  margin-top: 12%;
 }
 .activityContainer{
   height:400px;
@@ -386,7 +387,7 @@ label{
   border: 2px solid #c5bfbf;
   border-radius: 7px;
   padding: 35px;
-  margin-top: 130px;
+  margin-top: 200px;
   z-index: 1;
   margin-bottom: 200px;
 }
@@ -406,4 +407,13 @@ label{
   justify-content: left;
   flex-direction: column;
   padding-top: 15px;
+}
+#profile-body{
+  display:flex;
+  flex-wrap: wrap;
+}
+#profile-body>img{
+  margin-top: 250px;
+  margin-left: 200px;
+  opacity:0.8
 }
