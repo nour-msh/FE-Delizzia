@@ -8,6 +8,7 @@ users.addEventListener("click", function(){
       })
       .then(function (response) {
           console.log(response);
+          window.location.href="users.html"
           }
       )
 });
